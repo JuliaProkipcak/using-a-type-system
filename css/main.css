@@ -12,13 +12,25 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: Georgia, Serif;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .img-flex {
   display: block;
   width: 100%;
+}
+
+a {
+  color: currentColor;
+}
+
+.card {
+  overflow: hidden;
+
+  background-color: #d9ccaa;
+  border-radius: 6px;
 }
